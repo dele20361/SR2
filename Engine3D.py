@@ -41,6 +41,9 @@ rend.glLine(V2((width/3)*2.25, height/4),V2((width/6)*4.66,(height/5)*1.682))
 rend.glLine(V2((width/3)*2.25, (height/5)*2.1),V2((width/6)*4.66,(height/5)*1.682))
 
 # Diamante
-rend.glLine(V2((width/6),height/2), V2((width/3), height/2))
+rend.glLine(V2((width/6)*1.4,height/2), V2((width/6)*1.7, (height/8)*5))
+rend.glLine(V2((width/6)*1.4,height/2), V2((width/6)*1.1, (height/8)*5))
+rend.glLine(V2((width/6)*1.4,(height/3)*2.25), V2((width/6)*1.7, (height/8)*5))
+rend.glLine(V2((width/6)*1.4,(height/3)*2.25), V2((width/6)*1.1, (height/8)*5))
 
 rend.glFinish('output.bmp')
